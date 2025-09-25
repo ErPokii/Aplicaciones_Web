@@ -1,25 +1,34 @@
 <!DOCTYPE html>
-<html lang="en"
-
-</head>
-    <meta charset="UTF-8"
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta charset="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formulario</title>
+    <title>Documento</title>
 </head>
 <body>
-    <form>
+    <h1>Formulario Curso Medac</h1>
+    <form action="datos.php" method="post">
         <h3><label for="cmedac">Curso Medac</label></h3>
-        <input type="text" id="cmedac" name="cmedac" value="SMR"><br>
-        <h3><label> for="modulo"</label></h3>
+        <input type="text" id="cmedac" name="cmedac" placeholder="SMR">
+        <h3><label for="cmedac">Curso Medac</label></h3>
+        <input type="text" id="Medac" name="Medac" value="Aplicaciones Web"> <br><br>
+        <h1>Formulario lista de la compra</h1>
+        <input type="checkbox" id="elem1" name="elem1" value="leche">
+        <label for="elemento1">Caja de leche</label><br>
+        <input type="checkbox" id="elem2" name="elem2" value="pan" checked="true">
+        <label for="elemento2">Pan rústico</label><br>
+        <input type="checkbox" id="elem3" name="elem3" value="huevos">
+        <label for="elemento3">Huevos(docena)</label><br><br>
+    </fieldset>
+    </fieldset>
+        <h1>Lista despegable</h1>
+        <select name="select">
+        <option value="modulo1">Sistemas Operativos</option>
+        <option value="modulo2" selected> Aplicaciones Web</option>
+        <option value="modulo3">Seguridad Informatica</option>
+        </select>
+        <button type="button" onclick="alert('Datos enviados correctamente')">Enviar Datos</button>
+    </fieldset>
     </form>
-</body>
-
-
-    
-
-<from>
-    <h3><label for="cmedac">Curso Medac</label></h3>
-    <input type="text" id="cmedac" name=""
-</from>
 </body>
 </html>
