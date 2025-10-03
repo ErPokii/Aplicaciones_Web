@@ -1,0 +1,39 @@
+body{
+    background:radial-gradient(circle, blueviolet,blue,yellow  )    
+}
+
+.IP{
+background-color: aqua;    
+}
+
+.Fundamentos{
+background-color: rgb(228, 79, 79);    
+}
+
+.Servicios{
+background-color: blueviolet;    
+}
+
+.Ingles{
+background-color: yellow;    
+}
+
+.Sistemas{
+background-color: greenyellow;    
+}
+
+.Aplicaciones{
+background-color: darkmagenta;    
+}
+
+.Seguridad{
+background-color: burlywood;    
+}
+
+.Proyecto{
+background-color: blue;    
+}
+
+.Descanso{
+background-color: green;    
+}
