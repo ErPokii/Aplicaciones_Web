@@ -52,13 +52,13 @@ h1{
     font-size: 25px;
      padding: 8px;
      margin: 5px;
+     transition: transform 0.6s;
 }
 
 .Instagram:hover{
     color: rgb(77, 255, 0);
     background-color: rgb(255, 85, 0);
-    transition: background-color 1s; transform 0.5;
-    transform scale(1,2);
+    transform: scale(1,2);
 }
 
 
@@ -66,8 +66,7 @@ h1{
 .GitHub:hover{
     color: rgb(77, 255, 0);
     background-color: rgb(255, 85, 0);
-     transition: background-color 1s; transform 0.5;
-    transform scale(1,2);
+    transform: scale(1,2);
 }
 
 .card{
@@ -77,7 +76,7 @@ h1{
     padding: 20px;
     border-radius: 10px;
     margin: 10px;
-    transition: transform 0.8, background-color 2s;
+    transition: transform 0.9s, background-color 2s;
 }
 
 .card:hover{
